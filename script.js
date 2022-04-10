@@ -9,3 +9,14 @@ documentr.onkeydown = function(e) {
 		alert("F12 disable");
 		return false;
 	}
+	if(e.ctrlkey && e.keyCode == 67){
+		alert(("ctrl + c disable");
+		return false;
+	}
+	
+	if(e.ctrlkey && e.keyCode == 85){
+		alert("ctrl + u disable");
+		return false;
+	}
+}
+
